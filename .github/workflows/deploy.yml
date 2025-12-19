@@ -21,7 +21,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # Removed cache: 'npm' because it requires a package-lock.json to exist.
+          # This allows the build to proceed even if you haven't run npm install locally yet.
 
       - name: Install dependencies
         run: npm install
