@@ -1,8 +1,6 @@
 
 import { Project, Experience, Education, SkillCategory } from './types';
-import medipalImage from './assets/medipal.png';
-import driverImage from './assets/driver.png';
-import plantImage from './assets/plant.png';
+import medipalImage from './assets/Medipal.png';
 
 
 export const PERSONAL_INFO = {

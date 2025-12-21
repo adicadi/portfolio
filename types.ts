@@ -27,3 +27,8 @@ export interface SkillCategory {
   category: string;
   skills: string[];
 }
+
+declare module '*.png' {
+  const src: string;
+  export default src;
+}
