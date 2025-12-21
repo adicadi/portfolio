@@ -165,8 +165,15 @@ const ProjectCard: React.FC<{ project: typeof PROJECTS[0], index: number }> = ({
             <h3 className="text-2xl font-bold text-white mb-1 group-hover:text-indigo-400 transition-colors">{project.title}</h3>
             <p className="text-indigo-400 text-sm font-medium">{project.subtitle}</p>
           </div>
-          <ExternalLink size={20} className="text-slate-500 group-hover:text-indigo-400 transition-colors" href={project.ExternalLink} />
-        </div>
+<a
+            href={project.externalLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-500 hover:text-indigo-400 transition-colors"
+            onClick={(e) => e.stopPropagation()} // optional safety
+          >
+            <ExternalLink size={20} />
+          </a>        </div>
 
         <ul className="space-y-3 mb-6">
           {project.description.map((item, idx) => (
