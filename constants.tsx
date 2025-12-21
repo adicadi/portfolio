@@ -1,6 +1,7 @@
 
 import { Project, Experience, Education, SkillCategory } from './types';
 import medipalImage from "./assets/Medipal.png";
+import plantImage from "./assets/Planto.png";
 
 export const PERSONAL_INFO = {
   name: "Aditya Chaudhary",
@@ -44,7 +45,7 @@ export const PROJECTS: Project[] = [
       "Enabled offline capabilities using TFLite for use in rural farm environments."
     ],
     techStack: ["TensorFlow", "Keras", "Flutter", "TFLite", "Firebase", "OpenCV"],
-    imageUrl: "https://picsum.photos/seed/plant/800/500"
+    imageUrl: plantImage
   }
 ];
 
