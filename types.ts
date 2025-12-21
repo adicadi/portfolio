@@ -5,6 +5,7 @@ export interface Project {
   description: string[];
   techStack: string[];
   imageUrl: string;
+  ExternalLink: string;
 }
 
 export interface Experience {

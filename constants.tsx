@@ -23,7 +23,8 @@ export const PROJECTS: Project[] = [
       "Engineered intelligent caching layer for medication interactions, reducing API costs by 70%."
     ],
     techStack: ["DeepSeek LLM", "Flutter", "Dart", "Provider", "REST API"],
-    imageUrl: medipalImage
+    imageUrl: medipalImage,
+    ExternalLink: "https://github.com/adicadi/MediPal"
   },
   {
     title: "Video-Based Driver Emotion Recognition",
@@ -34,7 +35,8 @@ export const PROJECTS: Project[] = [
       "Targeted 3.9ms inference time for high-performance edge execution."
     ],
     techStack: ["PyTorch", "OpenCV", "NumPy", "Pandas", "CUDA"],
-    imageUrl: "https://picsum.photos/seed/driver/800/500"
+    imageUrl: "https://picsum.photos/seed/driver/800/500",
+    ExternalLink: ""
   },
   {
     title: "Plant Disease Classification System",
@@ -45,7 +47,8 @@ export const PROJECTS: Project[] = [
       "Enabled offline capabilities using TFLite for use in rural farm environments."
     ],
     techStack: ["TensorFlow", "Keras", "Flutter", "TFLite", "Firebase", "OpenCV"],
-    imageUrl: plantImage
+    imageUrl: plantImage,
+    ExternalLink: "https://github.com/adicadi/MajorProject"
   }
 ];
 
