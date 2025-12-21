@@ -1,5 +1,9 @@
 
 import { Project, Experience, Education, SkillCategory } from './types';
+import medipalImage from './assets/medipal.png';
+import driverImage from './assets/driver.png';
+import plantImage from './assets/plant.png';
+
 
 export const PERSONAL_INFO = {
   name: "Aditya Chaudhary",
@@ -21,7 +25,7 @@ export const PROJECTS: Project[] = [
       "Engineered intelligent caching layer for medication interactions, reducing API costs by 70%."
     ],
     techStack: ["DeepSeek LLM", "Flutter", "Dart", "Provider", "REST API"],
-    imageUrl: "https://picsum.photos/seed/medipal/800/500"
+    imageUrl: medipalImage
   },
   {
     title: "Video-Based Driver Emotion Recognition",
