@@ -166,7 +166,7 @@ const ProjectCard: React.FC<{ project: typeof PROJECTS[0], index: number }> = ({
             <p className="text-indigo-400 text-sm font-medium">{project.subtitle}</p>
           </div>
 <a
-            href={project.externalLink}
+            href={project.ExternalLink}
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-500 hover:text-indigo-400 transition-colors"
