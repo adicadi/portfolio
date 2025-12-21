@@ -1,7 +1,6 @@
 
 import { Project, Experience, Education, SkillCategory } from './types';
-import medipalImage from './assets/Medipal.png';
-
+import medipalImage from "./assets/Medipal.png";
 
 export const PERSONAL_INFO = {
   name: "Aditya Chaudhary",
