@@ -1,6 +1,7 @@
 
 import { Project, Experience, Education, SkillCategory } from './types';
 import medipalImage from "./assets/Medipal.png";
+import VideoBased from "./assets/FER.png";
 import plantImage from "./assets/Planto.png";
 
 export const PERSONAL_INFO = {
@@ -35,7 +36,7 @@ export const PROJECTS: Project[] = [
       "Targeted 3.9ms inference time for high-performance edge execution."
     ],
     techStack: ["PyTorch", "OpenCV", "NumPy", "Pandas", "CUDA"],
-    imageUrl: "https://picsum.photos/seed/driver/800/500",
+    imageUrl: VideoBased,
     ExternalLink: ""
   },
   {
